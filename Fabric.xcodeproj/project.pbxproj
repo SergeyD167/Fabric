@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		65DF97672C33E6AF00057C00 /* FabricApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DF97662C33E6AF00057C00 /* FabricApp.swift */; };
-		65DF97692C33E6AF00057C00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DF97682C33E6AF00057C00 /* ContentView.swift */; };
 		65DF976B2C33E6B100057C00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65DF976A2C33E6B100057C00 /* Assets.xcassets */; };
 		65DF976E2C33E6B100057C00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65DF976D2C33E6B100057C00 /* Preview Assets.xcassets */; };
+		65DF97752C33E80200057C00 /* Fabric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DF97742C33E80200057C00 /* Fabric.swift */; };
+		65DF97782C34300400057C00 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DF97772C34300400057C00 /* Person.swift */; };
+		65DF977A2C34300D00057C00 /* Passport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DF97792C34300D00057C00 /* Passport.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		65DF97632C33E6AF00057C00 /* Fabric.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fabric.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65DF97662C33E6AF00057C00 /* FabricApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabricApp.swift; sourceTree = "<group>"; };
-		65DF97682C33E6AF00057C00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		65DF976A2C33E6B100057C00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65DF976D2C33E6B100057C00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		65DF97742C33E80200057C00 /* Fabric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fabric.swift; sourceTree = "<group>"; };
+		65DF97772C34300400057C00 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		65DF97792C34300D00057C00 /* Passport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passport.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				65DF97662C33E6AF00057C00 /* FabricApp.swift */,
-				65DF97682C33E6AF00057C00 /* ContentView.swift */,
+				65DF97762C33E80D00057C00 /* Fabric */,
 				65DF976A2C33E6B100057C00 /* Assets.xcassets */,
 				65DF976C2C33E6B100057C00 /* Preview Content */,
 			);
@@ -65,6 +69,16 @@
 				65DF976D2C33E6B100057C00 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		65DF97762C33E80D00057C00 /* Fabric */ = {
+			isa = PBXGroup;
+			children = (
+				65DF97742C33E80200057C00 /* Fabric.swift */,
+				65DF97772C34300400057C00 /* Person.swift */,
+				65DF97792C34300D00057C00 /* Passport.swift */,
+			);
+			path = Fabric;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65DF97692C33E6AF00057C00 /* ContentView.swift in Sources */,
+				65DF97752C33E80200057C00 /* Fabric.swift in Sources */,
+				65DF977A2C34300D00057C00 /* Passport.swift in Sources */,
+				65DF97782C34300400057C00 /* Person.swift in Sources */,
 				65DF97672C33E6AF00057C00 /* FabricApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

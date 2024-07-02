@@ -11,7 +11,7 @@ import SwiftUI
 struct FabricApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            
         }
     }
 }
